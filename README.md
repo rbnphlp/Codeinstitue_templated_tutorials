@@ -1,1 +1,1 @@
-Code institue mini project : Mongo DB+Flask+Heroku
+Code institue mini project : Django
