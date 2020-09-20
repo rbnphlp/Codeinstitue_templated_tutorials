@@ -163,3 +163,16 @@ LOGIN_URL='/accounts/login/'
 "After authentication redirect to home"
 LOGIN_REDIRECT_URL="/"
 
+
+
+"Settings for static file"
+
+STATIC_URL="/static/"
+"Expects a tuple"
+STATICFILES_DIRS=(os.path.join(BASE_DIR,'static'),)
+
+
+MEDIA_URL='/media/'
+
+MEDIA_ROOT=os.path.join(BASE_DIR,'media')
+
