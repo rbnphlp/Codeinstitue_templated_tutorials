@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-23T20:36:14.659Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="br_AabMS3S8rREgufPCQ" version="13.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-23T21:16:44.682Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="Wn0xCRKdxndxD8H231Pu" version="13.7.5" type="github">
   <diagram name="Page-1" id="52a04d89-c75d-2922-d76d-85b35f80e030">
-    <mxGraphModel dx="694" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="849" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,6 +9,36 @@
         </mxCell>
         <mxCell id="pUkjQYLz1fGqXdbXeimg-2" value="models.py :&amp;nbsp; create , retrieve and update records in data bases without repeating SQL&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="270" y="270" width="170" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="pUkjQYLz1fGqXdbXeimg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pUkjQYLz1fGqXdbXeimg-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUkjQYLz1fGqXdbXeimg-3" value="Admin Site : Adding , ediiting and deletion of site content" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="80" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pUkjQYLz1fGqXdbXeimg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pUkjQYLz1fGqXdbXeimg-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUkjQYLz1fGqXdbXeimg-6" value="How&amp;nbsp; does this work ?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="632" y="210" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pUkjQYLz1fGqXdbXeimg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pUkjQYLz1fGqXdbXeimg-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUkjQYLz1fGqXdbXeimg-9" value="Part of larger suite of django functionality Django contrib (like a Py library)&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="340" width="410" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pUkjQYLz1fGqXdbXeimg-11" value="Add Config steps for admin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="805" y="440" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pUkjQYLz1fGqXdbXeimg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pUkjQYLz1fGqXdbXeimg-11" target="pUkjQYLz1fGqXdbXeimg-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
