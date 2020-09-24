@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-09-24T20:59:59.331Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="0PXjfrai3k3dFEjMMtCj" version="13.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-24T21:47:40.617Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="Py8_FrIJwxZnaNATANlN" version="13.7.5" type="github">
   <diagram name="Page-1" id="52a04d89-c75d-2922-d76d-85b35f80e030">
-    <mxGraphModel dx="694" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="721" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="pUkjQYLz1fGqXdbXeimg-1" value="urls.py&amp;nbsp; : specifies which view is used for url pattern" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="400" y="440" width="140" height="20" as="geometry" />
+          <mxGeometry x="100" y="370" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="pUkjQYLz1fGqXdbXeimg-2" value="models.py :&amp;nbsp; create , retrieve and update records in data bases without repeating SQL&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="270" y="270" width="170" height="10" as="geometry" />
@@ -31,7 +31,7 @@
             <mxPoint x="850" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q1F5vRGkRRXyPfD4T56F-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pUkjQYLz1fGqXdbXeimg-9">
+        <mxCell id="q1F5vRGkRRXyPfD4T56F-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pUkjQYLz1fGqXdbXeimg-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1000" y="430" as="targetPoint" />
           </mxGeometry>
@@ -45,8 +45,30 @@
         <mxCell id="pUkjQYLz1fGqXdbXeimg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="pUkjQYLz1fGqXdbXeimg-11" target="pUkjQYLz1fGqXdbXeimg-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="q1F5vRGkRRXyPfD4T56F-2" value="Add models to the admin site ( and add , change delete objects from database in custom interface)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="q1F5vRGkRRXyPfD4T56F-2" value="Add models to the admin site ( and add , change delete objects from database in custom interface)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="940" y="460" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pS-rsjacTaa-X49uNgt4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pS-rsjacTaa-X49uNgt4-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pS-rsjacTaa-X49uNgt4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pS-rsjacTaa-X49uNgt4-1" target="pUkjQYLz1fGqXdbXeimg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pS-rsjacTaa-X49uNgt4-1" value="Django&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="450" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pS-rsjacTaa-X49uNgt4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pS-rsjacTaa-X49uNgt4-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pS-rsjacTaa-X49uNgt4-4" value="Views : Python function that takes Httprequest as a first parameter and resturns an instance of HttpResponse ." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="630" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pS-rsjacTaa-X49uNgt4-6" value="Url conf to hook&amp;nbsp; views to a particualr url&amp;nbsp;&lt;br&gt;&lt;br&gt;Mapping for URLS and view functions that should be called for those URLs&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="630" width="210" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
