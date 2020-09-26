@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-26T15:34:14.238Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="070Wrea9qyn3ySIWLmoy" version="13.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-26T16:08:13.791Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="7TaOB9SM64Rn9LBXycrz" version="13.7.5" type="github">
   <diagram name="Page-1" id="52a04d89-c75d-2922-d76d-85b35f80e030">
-    <mxGraphModel dx="2049" dy="1091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="3413" dy="2547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,14 +20,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uXAhLUbkJdF9ODy3EN__-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="pUkjQYLz1fGqXdbXeimg-2">
+        <mxCell id="uXAhLUbkJdF9ODy3EN__-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="pUkjQYLz1fGqXdbXeimg-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-210" y="320" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uXAhLUbkJdF9ODy3EN__-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.008;exitY=0.877;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="pUkjQYLz1fGqXdbXeimg-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-50" y="330" as="targetPoint" />
+            <mxPoint x="-290" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pUkjQYLz1fGqXdbXeimg-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;(M) models.py :&amp;nbsp; create , retrieve and update records in data bases without repeating SQL&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#F9FF4F;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -189,16 +184,41 @@
           <mxGeometry x="430" y="500" width="129" height="100" as="geometry" />
         </mxCell>
         <mxCell id="uXAhLUbkJdF9ODy3EN__-22" value="&lt;br&gt;&lt;b&gt;Lbrary Models&lt;/b&gt;:&lt;br&gt;&lt;br&gt;&amp;nbsp;Build tables ,using models.py" style="text;html=1;strokeColor=none;fillColor=#2BA3FF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="330" width="90" height="100" as="geometry" />
+          <mxGeometry x="-330" y="425" width="90" height="100" as="geometry" />
         </mxCell>
         <mxCell id="uXAhLUbkJdF9ODy3EN__-24" value="&lt;font&gt;&lt;b style=&quot;font-size: 14px&quot;&gt;&amp;nbsp;Library Q objects:&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;To create and or conditions in look up query&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#40A6FF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="360" width="170" height="70" as="geometry" />
+          <mxGeometry x="-130" y="430" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="uXAhLUbkJdF9ODy3EN__-25" value="Build Tables" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="270" width="40" height="20" as="geometry" />
+          <mxGeometry x="-310" y="360" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="uXAhLUbkJdF9ODy3EN__-27" value="Filter Objects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="270" width="40" height="20" as="geometry" />
+        <mxCell id="uXAhLUbkJdF9ODy3EN__-27" value="Build Queries" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="370" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uXAhLUbkJdF9ODy3EN__-29" value="Filter objects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="380" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uXAhLUbkJdF9ODy3EN__-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="uXAhLUbkJdF9ODy3EN__-25" target="uXAhLUbkJdF9ODy3EN__-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uXAhLUbkJdF9ODy3EN__-41" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uXAhLUbkJdF9ODy3EN__-40" target="uXAhLUbkJdF9ODy3EN__-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uXAhLUbkJdF9ODy3EN__-42" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="uXAhLUbkJdF9ODy3EN__-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-520" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXAhLUbkJdF9ODy3EN__-43" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="uXAhLUbkJdF9ODy3EN__-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-60" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXAhLUbkJdF9ODy3EN__-40" value="Database Operatoons" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-310" y="280" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uXAhLUbkJdF9ODy3EN__-44" value="Method Filter , to translate&amp;nbsp; WHERE in SQL&amp;nbsp;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Double underscore : Used to look up using &quot;LIKE&quot; in SQL&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="405" width="280" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
