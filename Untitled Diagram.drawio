@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-24T21:47:40.617Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="Py8_FrIJwxZnaNATANlN" version="13.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-26T13:42:12.442Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="eghsRySeZahXh79Estbn" version="13.7.5" type="github">
   <diagram name="Page-1" id="52a04d89-c75d-2922-d76d-85b35f80e030">
-    <mxGraphModel dx="721" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="816" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,27 +48,58 @@
         <mxCell id="q1F5vRGkRRXyPfD4T56F-2" value="Add models to the admin site ( and add , change delete objects from database in custom interface)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="940" y="460" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="pS-rsjacTaa-X49uNgt4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pS-rsjacTaa-X49uNgt4-1">
+        <mxCell id="pS-rsjacTaa-X49uNgt4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="610" as="targetPoint" />
+            <mxPoint x="390" y="460" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pS-rsjacTaa-X49uNgt4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pS-rsjacTaa-X49uNgt4-1" target="pUkjQYLz1fGqXdbXeimg-3">
+        <mxCell id="pS-rsjacTaa-X49uNgt4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pS-rsjacTaa-X49uNgt4-1" target="pUkjQYLz1fGqXdbXeimg-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pS-rsjacTaa-X49uNgt4-1" value="Django&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="pS-rsjacTaa-X49uNgt4-1" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;Django&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="430" y="450" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="pS-rsjacTaa-X49uNgt4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pS-rsjacTaa-X49uNgt4-4">
+        <mxCell id="pS-rsjacTaa-X49uNgt4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pS-rsjacTaa-X49uNgt4-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pS-rsjacTaa-X49uNgt4-4" value="Views : Python function that takes Httprequest as a first parameter and resturns an instance of HttpResponse ." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="-x8-oLALC0qd9yzaVtkH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pS-rsjacTaa-X49uNgt4-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pS-rsjacTaa-X49uNgt4-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Views : Python function that takes Httprequest as a first parameter and resturns an instance of HttpResponse .&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="630" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="pS-rsjacTaa-X49uNgt4-6" value="Url conf to hook&amp;nbsp; views to a particualr url&amp;nbsp;&lt;br&gt;&lt;br&gt;Mapping for URLS and view functions that should be called for those URLs&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="pS-rsjacTaa-X49uNgt4-6" value="Url conf to hook&amp;nbsp; views to a particualr url&amp;nbsp;&lt;br&gt;&lt;br&gt;Mapping for URLS and view functions that should be called for those URLs&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="550" y="630" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-x8-oLALC0qd9yzaVtkH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-x8-oLALC0qd9yzaVtkH-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160.47058823529414" y="1010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="175" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-x8-oLALC0qd9yzaVtkH-1" value="Get_object_or_404 : : Common get object and raise http reponse 404 &lt;br&gt;akes a &lt;b&gt;Django model&lt;/b&gt; as first arg and passes it to get function" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="850" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-x8-oLALC0qd9yzaVtkH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-x8-oLALC0qd9yzaVtkH-5" target="-x8-oLALC0qd9yzaVtkH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-x8-oLALC0qd9yzaVtkH-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-x8-oLALC0qd9yzaVtkH-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="889.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-x8-oLALC0qd9yzaVtkH-5" value="Shortcuts :&amp;nbsp; encodes idoons to simplify process of writing views&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="740" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-x8-oLALC0qd9yzaVtkH-13" value="get_list_or_404 :" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="920" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
