@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-26T14:59:14.719Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="Ga_Jd8Cho6sWE6MV8GwC" version="13.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-26T15:13:12.387Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="Hvkjr6ic0j6i15iV0DYI" version="13.7.5" type="github">
   <diagram name="Page-1" id="52a04d89-c75d-2922-d76d-85b35f80e030">
-    <mxGraphModel dx="694" dy="1614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="991" dy="1091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,16 +9,19 @@
             <mxPoint x="690" y="549.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pUkjQYLz1fGqXdbXeimg-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;urls.py&amp;nbsp; : specifies which view is used for url pattern&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="620" y="460" width="140" height="20" as="geometry" />
+        <mxCell id="pUkjQYLz1fGqXdbXeimg-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;(C) urls.py&amp;nbsp; : specifies which view is used for url pattern&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#EDFF4A;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="620" y="460" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uXAhLUbkJdF9ODy3EN__-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pUkjQYLz1fGqXdbXeimg-2">
+        <mxCell id="uXAhLUbkJdF9ODy3EN__-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pUkjQYLz1fGqXdbXeimg-2" target="uXAhLUbkJdF9ODy3EN__-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="325" y="100" as="targetPoint" />
+            <mxPoint x="90" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="225" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pUkjQYLz1fGqXdbXeimg-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;models.py :&amp;nbsp; create , retrieve and update records in data bases without repeating SQL&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="240" y="220" width="170" height="10" as="geometry" />
+        <mxCell id="pUkjQYLz1fGqXdbXeimg-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;(M) models.py :&amp;nbsp; create , retrieve and update records in data bases without repeating SQL&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#F9FF4F;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="205" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pUkjQYLz1fGqXdbXeimg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pUkjQYLz1fGqXdbXeimg-3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -65,34 +68,25 @@
         <mxCell id="q1F5vRGkRRXyPfD4T56F-2" value="Add models to the admin site ( and add , change delete objects from database in custom interface)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="940" y="460" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="pS-rsjacTaa-X49uNgt4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="610" as="targetPoint" />
-            <mxPoint x="390" y="460" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="pS-rsjacTaa-X49uNgt4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.806;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="pUkjQYLz1fGqXdbXeimg-2" target="pUkjQYLz1fGqXdbXeimg-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="450" y="400" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="400" y="230" />
-              <mxPoint x="400" y="250" />
+              <mxPoint x="377" y="250" />
               <mxPoint x="630" y="250" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-x8-oLALC0qd9yzaVtkH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="pS-rsjacTaa-X49uNgt4-1" target="pUkjQYLz1fGqXdbXeimg-1" edge="1">
+        <mxCell id="uXAhLUbkJdF9ODy3EN__-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pS-rsjacTaa-X49uNgt4-1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="470" y="450" />
-              <mxPoint x="470" y="430" />
-              <mxPoint x="780" y="430" />
-              <mxPoint x="780" y="465" />
-            </Array>
+            <mxPoint x="360" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="uXAhLUbkJdF9ODy3EN__-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pS-rsjacTaa-X49uNgt4-1" target="pUkjQYLz1fGqXdbXeimg-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pS-rsjacTaa-X49uNgt4-1" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;Django&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="430" y="450" width="40" height="20" as="geometry" />
+          <mxGeometry x="550" y="450" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="pS-rsjacTaa-X49uNgt4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="pS-rsjacTaa-X49uNgt4-4" target="pS-rsjacTaa-X49uNgt4-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -104,8 +98,8 @@
             <mxPoint x="300" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pS-rsjacTaa-X49uNgt4-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Views : Python function that takes Httprequest as a first parameter and resturns an instance of HttpResponse .&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="200" y="630" width="200" height="20" as="geometry" />
+        <mxCell id="pS-rsjacTaa-X49uNgt4-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&amp;nbsp;(V) Views : Python function that takes Httprequest as a first parameter and resturns an instance of HttpResponse .&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#F8FF38;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="580" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-x8-oLALC0qd9yzaVtkH-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="pS-rsjacTaa-X49uNgt4-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -156,23 +150,33 @@
           <mxGeometry x="850" y="870" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uXAhLUbkJdF9ODy3EN__-5" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="330" y="270" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="uXAhLUbkJdF9ODy3EN__-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="uXAhLUbkJdF9ODy3EN__-5" source="pS-rsjacTaa-X49uNgt4-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-80" y="180" />
-              <mxPoint x="-80" y="90" />
-              <mxPoint y="90" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="360" y="270" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="uXAhLUbkJdF9ODy3EN__-4" value="Djangos&#39;s database layer : Powerful toos to performing database queries using python&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uXAhLUbkJdF9ODy3EN__-5">
           <mxGeometry y="50" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="uXAhLUbkJdF9ODy3EN__-10" value="Dumb way to do this :&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Retrieve some records by hardcoding parameters&amp;nbsp;&lt;/li&gt;&lt;li&gt;Need to write boiler plate code , establishing and closing a connection&amp;nbsp;&lt;/li&gt;&lt;li&gt;Tied to Specific database , swtiching to a differenet datbase need to redo all the above again&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="137.5" y="-90" width="325" height="170" as="geometry" />
+        <mxCell id="uXAhLUbkJdF9ODy3EN__-10" value="Dumb way to do this :&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Retrieve some records by hardcoding parameters&amp;nbsp;&lt;/li&gt;&lt;li&gt;Need to write boiler plate code , establishing and closing a connection&amp;nbsp;&lt;/li&gt;&lt;li&gt;Tied to Specific database , swtiching to a differenet datbase need to redo all the above again&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=#FF9169;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="10" width="325" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="uXAhLUbkJdF9ODy3EN__-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uXAhLUbkJdF9ODy3EN__-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="326" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="550" />
+              <mxPoint x="320" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXAhLUbkJdF9ODy3EN__-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uXAhLUbkJdF9ODy3EN__-11" target="pUkjQYLz1fGqXdbXeimg-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uXAhLUbkJdF9ODy3EN__-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="uXAhLUbkJdF9ODy3EN__-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXAhLUbkJdF9ODy3EN__-11" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;MVC (model view controller)&lt;br&gt;Make changes in one piece of application without affecting the other&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#26FF84;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="500" width="129" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
