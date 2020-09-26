@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-26T13:42:12.442Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="eghsRySeZahXh79Estbn" version="13.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-26T13:42:47.187Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="G-fDNAM1fBlTq_5vZOLC" version="13.7.5" type="github">
   <diagram name="Page-1" id="52a04d89-c75d-2922-d76d-85b35f80e030">
     <mxGraphModel dx="816" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -98,8 +98,8 @@
         <mxCell id="-x8-oLALC0qd9yzaVtkH-5" value="Shortcuts :&amp;nbsp; encodes idoons to simplify process of writing views&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="740" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="-x8-oLALC0qd9yzaVtkH-13" value="get_list_or_404 :" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="920" width="40" height="20" as="geometry" />
+        <mxCell id="-x8-oLALC0qd9yzaVtkH-13" value="get_list_or_404 : Same way as object ,ecept uses filter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="349" y="920" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
