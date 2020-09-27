@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-27T18:19:38.080Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="YJ8gk4PFp5G_k40SQJSL" version="13.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-27T18:20:07.379Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="aTz4gIC2BFSNeoNMW6XI" version="13.7.5" type="github">
   <diagram name="Page-1" id="52a04d89-c75d-2922-d76d-85b35f80e030">
-    <mxGraphModel dx="1794" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -166,15 +166,6 @@
         <mxCell id="uXAhLUbkJdF9ODy3EN__-10" value="Dumb way to do this :&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Retrieve some records by hardcoding parameters&amp;nbsp;&lt;/li&gt;&lt;li&gt;Need to write boiler plate code , establishing and closing a connection&amp;nbsp;&lt;/li&gt;&lt;li&gt;Tied to Specific database , swtiching to a differenet datbase need to redo all the above again&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=#FF9169;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="105" y="10" width="325" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="uXAhLUbkJdF9ODy3EN__-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uXAhLUbkJdF9ODy3EN__-11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="326" y="590" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="320" y="550" />
-              <mxPoint x="320" y="590" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="uXAhLUbkJdF9ODy3EN__-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="uXAhLUbkJdF9ODy3EN__-11" target="pUkjQYLz1fGqXdbXeimg-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -182,6 +173,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="270" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xJuwHjntiPd66p36rF1F-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uXAhLUbkJdF9ODy3EN__-11" target="pS-rsjacTaa-X49uNgt4-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uXAhLUbkJdF9ODy3EN__-11" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;MVC (model view controller)&lt;br&gt;Make changes in one piece of application without affecting the other&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#26FF84;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="430" y="500" width="129" height="100" as="geometry" />
