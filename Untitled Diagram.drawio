@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-27T18:20:07.379Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="aTz4gIC2BFSNeoNMW6XI" version="13.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-06T20:14:33.797Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="f8miw5v_uaMPjRjO_8fl" version="13.7.7" type="github">
   <diagram name="Page-1" id="52a04d89-c75d-2922-d76d-85b35f80e030">
-    <mxGraphModel dx="1678" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2762" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,7 +103,7 @@
             <mxPoint x="300" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xJuwHjntiPd66p36rF1F-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pS-rsjacTaa-X49uNgt4-4" target="xJuwHjntiPd66p36rF1F-1">
+        <mxCell id="xJuwHjntiPd66p36rF1F-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="pS-rsjacTaa-X49uNgt4-4" target="xJuwHjntiPd66p36rF1F-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pS-rsjacTaa-X49uNgt4-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&amp;nbsp;(V) Views : Python function that takes Httprequest as a first parameter and resturns an instance of HttpResponse .&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#F8FF38;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -174,7 +174,7 @@
             <mxPoint x="330" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xJuwHjntiPd66p36rF1F-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uXAhLUbkJdF9ODy3EN__-11" target="pS-rsjacTaa-X49uNgt4-4">
+        <mxCell id="xJuwHjntiPd66p36rF1F-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="uXAhLUbkJdF9ODy3EN__-11" target="pS-rsjacTaa-X49uNgt4-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uXAhLUbkJdF9ODy3EN__-11" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;MVC (model view controller)&lt;br&gt;Make changes in one piece of application without affecting the other&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#26FF84;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -217,19 +217,51 @@
         <mxCell id="uXAhLUbkJdF9ODy3EN__-44" value="Method Filter , to translate&amp;nbsp; WHERE in SQL&amp;nbsp;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Double underscore : Used to look up using &quot;LIKE&quot; in SQL&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-660" y="405" width="280" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="xJuwHjntiPd66p36rF1F-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xJuwHjntiPd66p36rF1F-1">
+        <mxCell id="xJuwHjntiPd66p36rF1F-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="xJuwHjntiPd66p36rF1F-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-260" y="930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xJuwHjntiPd66p36rF1F-1" value="&lt;font&gt;&lt;span style=&quot;font-weight: bold ; font-size: 14px&quot;&gt;Templates :&lt;/span&gt;&lt;font style=&quot;font-size: 12px&quot;&gt; Allows to seperate Python code from&amp;nbsp; Web development&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xJuwHjntiPd66p36rF1F-1" value="&lt;font&gt;&lt;span style=&quot;font-weight: bold ; font-size: 14px&quot;&gt;Templates :&lt;/span&gt;&lt;font style=&quot;font-size: 12px&quot;&gt; Allows to seperate Python code from&amp;nbsp; Web development&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-370" y="770" width="220" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="xJuwHjntiPd66p36rF1F-4" value="&lt;ul&gt;&lt;li&gt;Create a temple object by providing raw template code as string&lt;/li&gt;&lt;li&gt;Render using context which is evaluted&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Y57B4zaJA9x1AP85XrFv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xJuwHjntiPd66p36rF1F-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-590" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJuwHjntiPd66p36rF1F-4" value="&lt;ul&gt;&lt;li&gt;Create a temple object by providing raw template code as string&lt;/li&gt;&lt;li&gt;Render using context which is evaluted&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-340" y="960" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="xJuwHjntiPd66p36rF1F-5" value="How does it work ?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xJuwHjntiPd66p36rF1F-5" value="How does it work ?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-240" y="900" width="120" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Y57B4zaJA9x1AP85XrFv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y57B4zaJA9x1AP85XrFv-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-790" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y57B4zaJA9x1AP85XrFv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y57B4zaJA9x1AP85XrFv-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-585" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y57B4zaJA9x1AP85XrFv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y57B4zaJA9x1AP85XrFv-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-360" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y57B4zaJA9x1AP85XrFv-2" value="Template Processes" style="text;html=1;strokeColor=none;fillColor=#FFCCCC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="1110" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y57B4zaJA9x1AP85XrFv-4" value="Engine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="1240" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y57B4zaJA9x1AP85XrFv-6" value="Template" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="1230" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y57B4zaJA9x1AP85XrFv-10" value="Context" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="1230" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
