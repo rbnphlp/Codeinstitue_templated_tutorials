@@ -5,8 +5,6 @@ import IPython.display as display
 
 import matplotlib.pyplot as plt
 import matplotlib as mpl
-mpl.rcParams['figure.figsize'] = (12,12)
-mpl.rcParams['axes.grid'] = False
 
 import numpy as np
 import PIL.Image
@@ -50,27 +48,32 @@ def imshow(image, title=None):
 
   
 
-
-content_path = tf.keras.utils.get_file('YellowLabradorLooking_new.jpg', 'https://storage.googleapis.com/download.tensorflow.org/example_images/YellowLabradorLooking_new.jpg')
-style_path = tf.keras.utils.get_file('kandinsky5.jpg','https://storage.googleapis.com/download.tensorflow.org/example_images/Vassily_Kandinsky%2C_1913_-_Composition_7.jpg')
+" loop through upload pics  and style pics  and generate painitns "
 
 
+mypath='upload_pics'
+from os import listdir
+from os.path import isfile, join
+onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
-content_image = load_img(content_path)
-style_image = load_img(style_path)
-
-plt.subplot(1, 2, 1)
-imshow(content_image, 'Content Image')
-
-plt.subplot(1, 2, 2)
-imshow(style_image, 'Style Image')
+for files in onlyfiles:
+    
+    file_=mypath+"/"+files
+    content_path = file_
+    style_path = "style_pics/default_style.jpg"
 
 
-import tensorflow_hub as hub
-hub_model = hub.load('https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2')
-stylized_image = hub_model(tf.constant(content_image), tf.constant(style_image))[0]
-l=tensor_to_image(stylized_image)
 
-# creating a image object (main image)  
-l.save("stledimage.jpeg")  
-  
+    content_image = load_img(content_path)
+    style_image = load_img(style_path)
+
+
+
+    import tensorflow_hub as hub
+    hub_model = hub.load('https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2')
+    stylized_image = hub_model(tf.constant(content_image), tf.constant(style_image))[0]
+    l=tensor_to_image(stylized_image)
+
+    # creating a image object (main image)  
+    l.save("paintings"+"/"+"painiting_default_style"+files)  
+    
