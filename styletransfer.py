@@ -60,7 +60,7 @@ for files in onlyfiles:
     
     file_=mypath+"/"+files
     content_path = file_
-    style_path = "style_pics/default_style.jpg"
+    style_path = "style_pics/human_Style.jpeg"
 
 
 
@@ -74,6 +74,11 @@ for files in onlyfiles:
     stylized_image = hub_model(tf.constant(content_image), tf.constant(style_image))[0]
     l=tensor_to_image(stylized_image)
 
+    # Resize image
+    new_width  = 380
+    new_height = 512
+    l= l.resize((new_width, new_height), PIL.Image.ANTIALIAS)
+
     # creating a image object (main image)  
-    l.save("paintings"+"/"+"painiting_default_style"+files)  
+    l.save("paintings"+"/"+"painiting_human_style"+files)  
     
